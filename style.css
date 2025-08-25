@@ -1,1 +1,49 @@
-
+body{
+    font-family:'Segoe UI', sans-serif ;
+    background-color:#f8f9fa ;
+    padding: 50px;
+}
+.quiz-container{
+    max-width: 600px;
+    margin: auto;
+    background:#ffffff ;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow:0 0 10px rgba(0,0,0,0);
+}
+#question{
+    font-size:20px ;
+    margin-bottom:20px ;
+}
+.option{
+    background-color:#e2e2e2;
+    border:none ;
+    padding:12px ;
+    margin: 5px o;
+    width:100% ;
+    font-size:16px;
+    cursor: pointer;
+    text-align: left;
+}
+.option:hover{
+    background-color:#ccc ;
+}
+.correct{
+    background-color:#4caf50 !important ;
+    color: white;
+}
+.wrong{
+    background-color:#F44336 !important ;
+    color: white;
+}
+#nextBtn{
+    margin-top: 20px;
+    padding:10px 20px ;
+    font-size: 16px;
+    cursor: pointer;
+}
+#scoreBox{
+  margin-top:20px ;  
+  font-weight:bold;
+  font-size:18px ;
+}
